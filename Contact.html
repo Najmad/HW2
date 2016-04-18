@@ -5,8 +5,82 @@
 	<title>Contact Me</title>
 </head>
 <body>
-	<header> <h1> Najma. <h1> </header>
-	<h2> Contact </h2>
+
+<style>
+h1 {
+	font-family:Book Antiqua;
+	font-size: 70px;
+	text-align: center;
+	text-align: top;
+}
+
+h2 {
+	font-family:Book Antiqua;
+	position: absolute;
+	top: 16%;
+}
+
+h3  {
+	font-family:Book Antiqua;
+	position: absolute;
+	top: 70%;
+}
+
+h4 {
+	font-family:Book Antiqua;
+	position: absolute;
+	bottom: 68%;
+} 
+body {
+	 background-color: #9dd8e5; 
+	 margin-left: 2%;
+}
+
+div.row {
+		font-family:Book Antiqua;
+}
+
+div.img {
+		padding: 5px;
+}
+</style>
 	
+	<header> <h1> Najma. <h1> </header>
+	<h2> Hello! </h2>
+	<h3>
+		<ul>
+			<a href="index.html"> <li> Home </li> </a>
+			<a href="bio.html">  <li> Biography </li> </a> 
+			<a href="gallery.html"> <li> View My Work </li> </a> 
+		</ul>
+		</h3>
+		<h4> Please submit your questions below. </h4> 
+		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+	<div class="img"> 
+		<a href="https://linkedin.com" </a>
+		<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/2000px-Linkedin_icon.svg.png" alt="LinkedIn" height="45" width="45">
+
+		<a href="https://Facebook.com" </a>
+		<img src= "http://www.psrec.coop/facebook_icon_v2_by_x_1337_x-d5ikwtv-1.png" alt="Facebook" height="45" width="45">
+
+		<a href="https://Pinterest.com" </a>
+		<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Pinterest_Shiny_Icon.svg/2000px-Pinterest_Shiny_Icon.svg.png" alt="Pinterest" height="45" width="45">
+		<a href="https://twitter.com" </a>
+		<img src= "http://cdn2.bigcommerce.com/n-zfvgw8/8d5sjk/product_images/uploaded_images/twitter-icon.png" alt="Twitter" height="45" width="45">
+  	</div>
+</form>						
 </body>
 </html>
